@@ -61,24 +61,24 @@ User Features
 
 
 Restaurant Management System
------installation-------
------Clone Repository------
+installation------>
+---Clone Repository--->
 git clone https://github.com/abhisheknishad23/Restaurant-Management-System.git
 
-----Install Backend Dependencies-----
+Install Backend Dependencies----->
 cd backend
 npm install
 
--------Run Server-------
+Run Server--->
 node server.js
 
-------Server runs on-----
+Server runs on---->
 http://localhost:5000
 
-----Database Setup---
+Database Setup--->
 Create database:
 CREATE DATABASE restaurant_db;
 
---------Admin Login--------
+Admin Login----->>
 Email: admin@gmail.com
 Password: 123456
