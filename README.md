@@ -1,28 +1,5 @@
-Restaurant Management System
------installation-------
------Clone Repository------
-git clone https://github.com/abhisheknishad23/Restaurant-Management-System.git
 
-----Install Backend Dependencies-----
-cd backend
-npm install
-
--------Run Server-------
-node server.js
-
-------Server runs on-----
-http://localhost:5000
-
-----Database Setup---
-Create database:
-CREATE DATABASE restaurant_db;
-
---------Admin Login--------
-Email: admin@gmail.com
-Password: 123456
-
-================================================================
-=============Project Overview============
+=====Project Overview========
 
 Restaurant Management System is a full-stack web application designed to manage restaurant operations digitally.
 
