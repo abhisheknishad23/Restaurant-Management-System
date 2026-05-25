@@ -56,31 +56,29 @@ User Features
 - Manage subscribers
 ================================================
 
-Project Structure
-Restaurant-Management-System
 
-frontend/
- index.html
- assets/
- css/
- js/
- images/
-=============================================
-admin/
- dashboard.html
- reservations.html
- menu.html
- reviews.html
- subscribers.html
- event.html
- css/
- js/
-==============================================
-backend/
- server.js
- routes/
- controllers/
- config/
- middleware/
- uploads/
- utils/
+
+
+
+Restaurant Management System
+-----installation-------
+-----Clone Repository------
+git clone https://github.com/abhisheknishad23/Restaurant-Management-System.git
+
+----Install Backend Dependencies-----
+cd backend
+npm install
+
+-------Run Server-------
+node server.js
+
+------Server runs on-----
+http://localhost:5000
+
+----Database Setup---
+Create database:
+CREATE DATABASE restaurant_db;
+
+--------Admin Login--------
+Email: admin@gmail.com
+Password: 123456
