@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Reservations</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="sidebar">
+
+    <h2>🍽 Admin</h2>
+
+    <a href="dashboard.html">
+      Dashboard
+    </a>
+
+    <a href="reservations.html">
+      Reservations
+    </a>
+
+    <a href="menu.html">
+      Menu
+    </a>
+
+    <a href="event.html">
+      Events
+    </a>
+
+    <a href="subscribers.html">
+      Subscribers
+    </a>
+
+    <a
+      href="reviews.html"
+      class="active"
+    >
+      Reviews
+    </a>
+
+  </div>
+
+
+  <div class="main">
+
+    <div class="topbar">
+
+      <h1>Reservations</h1>
+
+    </div>
+
+
+    <div class="table-section">
+
+      <table>
+
+        <thead>
+
+          <tr>
+            <th>Booking Id</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Person</th>
+            <th>Status</th>
+            <th>Actions</th>
+          </tr>
+
+        </thead>
+
+        <tbody id="reservationTable"></tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+  <script src="js/reservations.js"></script>
+
+</body>
+</html>

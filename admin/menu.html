@@ -1,0 +1,164 @@
+<html>
+
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Menu Management</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- SIDEBAR -->
+
+    <div class="sidebar">
+
+    <h2>🍽 Admin</h2>
+
+    <a href="dashboard.html">
+      Dashboard
+    </a>
+
+    <a href="reservations.html">
+      Reservations
+    </a>
+
+    <a href="menu.html">
+      Menu
+    </a>
+
+    <a href="event.html">
+      Events
+    </a>
+
+    <a href="subscribers.html">
+      Subscribers
+    </a>
+
+    <a
+      href="reviews.html"
+      class="active"
+    >
+      Reviews
+    </a>
+
+  </div>
+
+
+  <!-- MAIN -->
+
+  <div class="main">
+
+    <div class="topbar">
+
+      <h1>Menu Management</h1>
+
+    </div>
+
+
+    <!-- FORM -->
+
+   <div class="menu-form">
+
+  <h2>Add New Food</h2>
+
+  <input
+    type="text"
+    id="name"
+    placeholder="Food Name" required
+  >
+
+  <textarea
+    id="description"
+    placeholder="Description" required
+  ></textarea>
+
+  <input
+    type="number"
+    id="price"
+    placeholder="Price" required
+  >
+
+  <!-- CATEGORY -->
+
+  <select id="category">
+
+    <option value="">
+      Select Category
+    </option>
+
+    <option value="Breakfast">
+      Breakfast
+    </option>
+
+    <option value="Lunch">
+      Lunch
+    </option>
+
+    <option value="Dinner">
+      Dinner
+    </option>
+
+    <option value="Drinks">
+      Drinks
+    </option>
+
+    <option value="Dessert">
+      Dessert
+    </option>
+
+  </select>
+
+  <!-- AVAILABILITY -->
+
+  <!-- <select id="is_available">
+
+    <option value="1">
+      Available
+    </option>
+
+    <option value="0">
+      Not Available
+    </option>
+
+  </select> -->
+
+  <input
+    type="file"
+    id="image"
+  >
+
+  <button onclick="addMenu()">
+    Add Menu
+  </button>
+
+</div>
+
+
+
+
+    <!-- MENU LIST -->
+
+    <div class="menu-section">
+
+      <h2>Menu Items</h2>
+
+      <div id="menuList"></div>
+
+    </div>
+    
+
+  </div>
+  
+
+  <script src="js/menu.js"></script>
+
+</body>
+</html>

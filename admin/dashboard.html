@@ -1,0 +1,138 @@
+<script>
+
+  const token =
+    localStorage.getItem(
+      "token"
+    );
+
+  if(!token){
+
+    window.location.href =
+    "index.html";
+
+  }
+
+</script>
+
+<script>
+
+function logout(){
+
+  localStorage.removeItem(
+    "token"
+  );
+
+  window.location.href =
+  "../frontend/index.html";
+
+}
+
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Admin Dashboard</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="sidebar">
+
+    <h2>Admin</h2>
+
+    <a href="dashboard.html">Dashboard</a>
+    <a href="reservations.html">Reservations</a>
+    <a href="menu.html">Menu</a>
+    <a href="event.html">Events</a>
+    <a href="subscribers.html">Subscribe</a>
+    <a href="reviews.html">Review</a>
+
+    <a href="javascript:void(0)" class="logout-btn" onclick="logout()">Logout</a>
+
+  </div>
+
+
+  <div class="main">
+
+    <div class="topbar">
+
+      <h1>Dashboard</h1>
+
+      <div class="admin-profile">
+        Admin
+      </div>
+
+    </div>
+
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Total Reservations</h3>
+        <p>120</p>
+      </div>
+
+      <div class="card">
+        <h3>Confirmed</h3>
+        <p>95</p>
+      </div>
+
+      <div class="card">
+        <h3>Cancelled</h3>
+        <p>10</p>
+      </div>
+
+      <div class="card">
+        <h3>Pending</h3>
+        <p>15</p>
+      </div>
+
+    </div>
+
+
+    <div class="table-section">
+
+      <h2>Recent Reservations</h2>
+
+      <table>
+
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr>
+            <td>Abhishek</td>
+            <td>2026-05-01</td>
+            <td>7:00 PM</td>
+            <td>
+              <span class="status confirmed">
+                Confirmed
+              </span>
+            </td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Event Management</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+      <div class="sidebar">
+
+    <h2>🍽 Admin</h2>
+
+    <a href="dashboard.html">
+      Dashboard
+    </a>
+
+    <a href="reservations.html">
+      Reservations
+    </a>
+
+    <a href="menu.html">
+      Menu
+    </a>
+
+    <a href="event.html">
+      Events
+    </a>
+
+    <a href="subscribers.html">
+      Subscribers
+    </a>
+
+    <a
+      href="reviews.html"
+      class="active"
+    >
+      Reviews
+    </a>
+
+  </div>
+
+<div class="main">
+     <div class="topbar">
+
+      <h1>Menu Management</h1>
+
+    </div>
+
+  <div class="menu-form">
+
+    <h2>Add Event</h2>
+
+    <input
+      type="text"
+      id="title"
+      placeholder="Event Title" required
+    >
+
+    <input
+      type="text"
+      id="description"
+      placeholder="description" required
+    >
+
+    <input
+      type="date"
+      id="event_date" required
+    >
+
+    <input
+      type="file"
+      id="image" required
+    >
+
+    <button onclick="addEvent()">
+      Add Event
+    </button>
+
+  </div>
+
+ <div class="event-secction">
+    <h2>Event List</h2>
+  <div id="eventList"></div>
+ </div>
+
+</div>
+
+<script src="js/event.js"></script>
+
+</body>
+</html>
