@@ -1,6 +1,6 @@
-#  Restaurant Management System
+Restaurant Management System
 
-##  Project Overview
+  Project Overview
 
 Restaurant Management System is a full-stack web application designed to manage restaurant operations digitally.
 
@@ -16,33 +16,33 @@ The project includes:
 - JWT Admin Authentication
 - Dynamic Frontend Integration
 
----
 
-# Technologies Used
 
-## Frontend
+ Technologies Used
+
+Frontend
 - HTML5
 - CSS3
 - JavaScript
 
-## Backend
+Backend
 - Node.js
 - Express.js
 
-## Database
+Database
 - MySQL
 
-# Other Tools
+Other Tools
 - Multer (Image Upload)
 - JWT Authentication
 - Twilio WhatsApp API
 - Cloudinary (Optional for Live Images)
 
----
 
-#  Features
 
-#  User Features
+Features
+
+User Features
 
 - View restaurant menu
 - Online table reservation
@@ -51,9 +51,9 @@ The project includes:
 - Newsletter subscription
 - Responsive UI
 
----
 
-# Admin Features
+
+Admin Features
 
 - Secure admin login
 - Dashboard analytics
@@ -65,11 +65,11 @@ The project includes:
 - Approve / delete customer reviews
 - Manage subscribers
 
----
 
-# Project Structure
 
-```plaintext
+Project Structure
+
+
 Restaurant-Management-System/
 
 │
